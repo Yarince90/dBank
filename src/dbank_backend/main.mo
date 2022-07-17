@@ -4,7 +4,7 @@ import Float "mo:base/Float";
 
 actor DBank { 
   stable var currentValue: Float = 100;
-  //currentValue := 500;
+  //currentValue := 100;
   Debug.print(debug_show(currentValue));
   
   stable var startTime = Time.now();
